@@ -1,4 +1,5 @@
 BitPet - Bitcoin Virtual Pet System ver 1.0 
+<br>
 by Joshua Kwan
 
 <br>
@@ -11,15 +12,15 @@ BitPet grows by being connected to Bitcoin related twitter tweets and "feeding" 
 
 The concept behind BitPet is based upon people's expectations of Bitcoin's public image. By selecting two keywords as twitter search parameters (one based upon negative connotations, the other positive), BitPet will grow automatically and evolve into one of two paths dependent on the type of keywords detected. 
 
-Will it evolve to the user's expectations, or surprise the user by evolving differently? BitPet aims to challenge people's expectations of what Bitcoin is normally associated with, in contrast with what the public is actually talking about on twitter regarding Bitcoin.
+Will it evolve to the user's expectations, or surprise the user by evolving differently? BitPet aims to challenge people's expectations of what Bitcoin is normally associated with, in contrast with what is actually being discussed on twitter regarding the cryptocurrency.
 
 <br>
 
 // Offline Mode Functions
 
-Offline mode is used to demonstrate BitPet's basic functionality quickly without using NodeRed and waiting for twitter feeds. Aside from the lack of the twitter components, offline mode has the same functions as online mode.
+Offline mode is used to demonstrate BitPet's basic functionality quickly without using Node-RED and waiting for twitter feeds. Aside from the lack of the twitter components, offline mode has the same functions as online mode.
 
-To feed the BitPet when it appears, tap on the left half of the screen to feed a negative keyword tweet and the right half for the a positive keyword. The BitPet will evolve after every 5 tweets/taps (max two evolutions).
+To feed the BitPet when it appears, tap on the left half of the screen to feed a negative keyword tweet and the right half for a positive keyword. The BitPet will evolve after every five tweets/taps (max two evolutions).
 
 Pet statistics and Tweet statistics can be accessed on the bottom once the BitPet has appeared. BitPet can be restarted by accessing the question mark button on the bottom right.
 
@@ -27,7 +28,7 @@ Pet statistics and Tweet statistics can be accessed on the bottom once the BitPe
 
 // Online Mode Functions (Incomplete)
 
-Currently the online mode is incomplete and is only used to demonstrate its connectivity by detecting public tweets with the word "Bitcoin". Once the BitPet is set up, it will automatically evolve after 5 tweets have been detected (Max 2 evolutions). The online mode can only evolve along one path currently.
+Currently the online mode is incomplete and is only used to demonstrate its connectivity by detecting public tweets with the word "Bitcoin". Once the BitPet is set up, it will automatically evolve after five tweets have been detected (max two evolutions). The online mode can only evolve along one path currently.
 
 Pet statistics and Tweet statistics can be accessed on the bottom once the BitPet has appeared. BitPet can be restarted by accessing the question mark button on the bottom right.
 
