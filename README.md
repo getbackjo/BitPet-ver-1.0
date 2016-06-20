@@ -23,7 +23,7 @@ To feed the BitPet when it appears, tap on the left half of the screen to feed a
 
 Pet statistics and Tweet statistics can be accessed on the bottom once the BitPet has appeared. BitPet can be restarted by accessing the question mark button on the bottom right.
 
-
+<br>
 
 // Online Mode Functions (Incomplete)
 
