@@ -1,7 +1,7 @@
 BitPet - Bitcoin Virtual Pet System ver 1.0 
 by Joshua Kwan
 
-
+<br>
 
 // About
 
@@ -13,7 +13,7 @@ The concept behind BitPet is based upon people's expectations of Bitcoin's publi
 
 Will it evolve to the user's expectations, or surprise the user by evolving differently? BitPet aims to challenge people's expectations of what Bitcoin is normally associated with, in contrast with what the public is actually talking about on twitter regarding Bitcoin.
 
-
+<br>
 
 // Offline Mode Functions
 
@@ -31,7 +31,7 @@ Currently the online mode is incomplete and is only used to demonstrate its conn
 
 Pet statistics and Tweet statistics can be accessed on the bottom once the BitPet has appeared. BitPet can be restarted by accessing the question mark button on the bottom right.
 
-
+<br>
 
 // Requirements
 
