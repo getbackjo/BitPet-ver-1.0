@@ -18,11 +18,11 @@ Will it evolve to the user's expectations, or surprise the user by evolving diff
 
 // Offline Mode Functions
 
-Offline mode is used to demonstrate BitPet's basic functionality quickly without using Node-RED and waiting for twitter feeds. Aside from the lack of the twitter components, offline mode has the same functions as online mode.
+Offline mode is used to demonstrate BitPet's basic functionality quickly without using Node-RED and waiting for tweets. Aside from the lack of the twitter components, offline mode has the same functions as online mode.
 
 To feed the BitPet when it appears, tap on the left half of the screen to feed a negative keyword tweet and the right half for a positive keyword. The BitPet will evolve after every five tweets/taps (max two evolutions).
 
-Pet statistics and Tweet statistics can be accessed on the bottom once the BitPet has appeared. BitPet can be restarted by accessing the question mark button on the bottom right.
+Pet statistics (i) and Tweet statistics (t) can be accessed on the bottom of the screen once the BitPet has appeared. BitPet can be restarted by accessing the question mark button (?) on the bottom right.
 
 <br>
 
@@ -30,16 +30,16 @@ Pet statistics and Tweet statistics can be accessed on the bottom once the BitPe
 
 Currently the online mode is incomplete and is only used to demonstrate its connectivity by detecting public tweets with the word "Bitcoin". Once the BitPet is set up, it will automatically evolve after five tweets have been detected (max two evolutions). The online mode can only evolve along one path currently.
 
-Pet statistics and Tweet statistics can be accessed on the bottom once the BitPet has appeared. BitPet can be restarted by accessing the question mark button on the bottom right.
+Pet statistics (i) and Tweet statistics (t) can be accessed on the bottom of the screen once the BitPet has appeared. BitPet can be restarted by accessing the question mark button (?) on the bottom right.
 
 <br>
 
-// Requirements
+// Set Up
 
-BitPet utilises an Arduino Uno along with a TFT Touch Shield V2 from Seeed Studio. Please download and add the associated libraries for TFT Touch Shield V2 from Seeed Studio's github.
+BitPet utilises an Arduino Uno along with a TFT Touch Shield V2 from Seeed Studio. Please download and add the two libraries for the Touch Shield (TFTv2.h, SeeedTouchScreen.h) if they haven't been added yet.
 
-Once added, place the Touch Shield on to the Arduino, upload the Arduino file and offline mode should be ready.
+To access offline mode, place the Touch Shield on to the Arduino, upload the Arduino file and offline mode should be ready.
 
-For online mode, BitPet BitPet utilises Node-RED. Please install and access Node-RED then import the Node-RED files within the Online Mode folder. Authenticate the twitter node with an account credential in order to detect tweets.
+For online mode, BitPet will need to utilise Node-RED. Please install and access Node-RED, then import the Node-RED flow from "Node-RED Instructions.rtf". Authenticate the twitter node with an account credential in order to detect tweets.
 
 Upload the Arduino file then deploy the Node-RED flow. Online mode should then be ready.
